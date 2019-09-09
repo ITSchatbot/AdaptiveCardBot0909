@@ -1,0 +1,26 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "こんにちは！Chatbotちゃんですー！下記について私が案内できますよ。何について聞きたいですか？",
+            "wrap": true,
+            "size": "default",
+            "spacing": "none"
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.Submit",
+            "title": "Teams",
+            "data": "Teams"
+        },
+        {
+            "type": "Action.Submit",
+            "title": "Skype",
+            "data": "Skype"
+        },
+    ]
+}

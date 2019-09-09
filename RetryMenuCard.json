@@ -1,0 +1,25 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Ç≤ÇﬂÇÒÇÀÅII am only able to answer the following questions...",
+            "wrap": true,
+            "spacing": "none"
+        }
+    ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Teams",
+      "data": "Teams"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Skype",
+      "data": "Skype"
+    },
+  ]
+}

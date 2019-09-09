@@ -1,0 +1,30 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Sorry, I can only help you with the followings...",
+      "wrap": true,
+      "spacing": "none"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "操作関連",
+      "data": "操作関連"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "申請関連",
+      "data": "申請関連"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "運用関連",
+      "data": "運用関連"
+    }
+  ]
+}
